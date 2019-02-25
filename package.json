@@ -9,7 +9,8 @@
   "description": "Event Calander Application for CYF",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm run server npm run build",
+    "postinstall": " npm run build",
+    "heroku-prebuild": "cd ./backend && npm install ",
     "server": "cd ./backend && npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run build",
