@@ -1,6 +1,11 @@
 {
   "name": "events-calender",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.9.0",
+    "npm": "5.5.1",
+    "yarn": "1.5.1"
+  },
   "description": "Event Calander Application for CYF",
   "main": "index.js",
   "scripts": {
