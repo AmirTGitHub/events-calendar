@@ -10,7 +10,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "npm run server npm run build",
-    "server": "cd ./backend && npm start",
+    "server": "cd ./backend && npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run build",
     "start": "cd ./backend && node server.js"
