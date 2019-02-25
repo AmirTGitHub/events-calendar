@@ -10,7 +10,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": " npm run build",
-    "heroku-prebuild": "cd ./backend && npm install && npm frontend",
+    "heroku-prebuild": "cd ./backend && npm install && npm run frontend",
     "frontend": "cd ./frontend && npm install",
     "server": "cd ./backend && npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
